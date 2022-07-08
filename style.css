@@ -22,6 +22,8 @@ body {
 .explaination {
   display: flex;
   flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
   border: 1px solid black;
   padding: 2rem;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
@@ -33,12 +35,9 @@ body {
   margin-bottom: 1rem;
 }
 
-.content {
-  margin-bottom: 0.5rem;
-}
-
 .last-update {
   margin-bottom: 2rem;
+  font-size: 0.8rem;
 }
 
 .bold {
@@ -46,10 +45,13 @@ body {
 }
 
 .submitBtn {
-  padding: 2rem 0.5rem;
+  padding: 1rem 3rem;
+  width: 230px;
+  font-size: 1.2rem;
   color: white;
-  background-color: lightblue;
-  border-radius: 1rem;
+  background-color: rgb(69, 149, 176);
+  border-radius: 0.2rem;
+  border: none;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;

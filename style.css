@@ -1,10 +1,15 @@
 body {
-  margin : 0px;
-  padding : 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.navbar{
-  display:flex;
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
   background-color: aqua;
 }
 
@@ -21,3 +26,39 @@ body {
   width: 10%;
   height : 10%
 }
+.explaination {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 2rem;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.content {
+  margin-bottom: 0.5rem;
+}
+
+.last-update {
+  margin-bottom: 2rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.submitBtn {
+  padding: 2rem 0.5rem;
+  color: white;
+  background-color: lightblue;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+

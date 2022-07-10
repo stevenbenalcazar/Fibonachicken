@@ -36,8 +36,6 @@ body {
   width: 50%;
 }
 .explaination {
-  display: flex;
-  flex-direction: column;
   width: 60vw;
   margin: 2rem auto;
   padding: 40px 20px;
@@ -46,6 +44,7 @@ body {
 
 .title {
   margin-bottom: 1rem;
+  font-size: 30px;
 }
 
 .last-update {
@@ -58,16 +57,14 @@ body {
 }
 
 .submitBtn {
-  padding: 1rem 3rem;
-  width: 230px;
-  font-size: 1.2rem;
+  padding: 1rem 1rem;
+  width: 150px;
   color: white;
   background-color: rgb(69, 149, 176);
   border-radius: 0.2rem;
   border: none;
-  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
-    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: 0 0 10px #aaa;
+  cursor: pointer;
 }
 
 #containerTwo {
